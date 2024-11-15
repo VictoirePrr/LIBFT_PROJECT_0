@@ -6,16 +6,15 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 12:31:55 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/15 10:32:45 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/15 14:31:13 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stdio.h>
+# include <stdint.h>
 # include <stdlib.h>
-# include <string.h>
 # include <unistd.h>
 
 typedef struct s_list
@@ -60,7 +59,7 @@ int					ft_strncmp(const char *s1, const char *s2, size_t n);
 int					ft_lstsize(t_list *lst);
 
 size_t				ft_strlcat(char *dst, const char *src, size_t dstsize);
-size_t				strlcpy(char *dst, const char *src, size_t size);
+size_t				ft_strlcpy(char *dst, const char *src, size_t size);
 size_t				ft_strlen(const char *str);
 
 char				*ft_itoa(int n);

@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 14:33:06 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/15 12:55:44 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/15 14:13:35 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,9 +28,9 @@ int	ft_overflow(const char *nptr, int i, int neg, unsigned long res)
 
 int	ft_atoi(const char *nptr)
 {
-	unsigned long res;
-	int neg;
-	int i;
+	unsigned long	res;
+	int				neg;
+	int				i;
 
 	i = 0;
 	neg = 1;

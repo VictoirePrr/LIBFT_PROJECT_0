@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 14:10:59 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/15 12:35:01 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/15 14:18:31 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
-	char *str;
-	char *s1;
-	unsigned int i;
+	char			*str;
+	char			*s1;
+	unsigned int	i;
 
 	i = 0;
 	str = (char *)malloc(ft_strlen(s) + 1 * sizeof(char));

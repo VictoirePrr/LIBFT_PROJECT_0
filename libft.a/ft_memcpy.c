@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 12:58:59 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/15 12:50:54 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/15 14:15:10 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	unsigned char *dest1;
-	unsigned char *src1;
-	size_t i;
+	unsigned char	*dest1;
+	unsigned char	*src1;
+	size_t			i;
 
 	if (dest == src)
 		return (dest);

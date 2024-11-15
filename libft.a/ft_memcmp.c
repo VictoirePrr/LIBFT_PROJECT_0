@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 13:20:39 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/15 12:51:14 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/15 14:14:22 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-	size_t i;
-	unsigned char *s01;
-	unsigned char *s02;
+	size_t			i;
+	unsigned char	*s01;
+	unsigned char	*s02;
 
 	i = 0;
 	s01 = (unsigned char *)s1;

@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 14:10:59 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/15 12:52:17 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/15 14:17:45 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,9 @@ size_t	ft_intlen(int n)
 
 char	*ft_itoa(int n)
 {
-	char *c;
-	int size;
-	long num;
+	char	*c;
+	int		size;
+	long	num;
 
 	num = n;
 	size = ft_intlen(n);
