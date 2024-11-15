@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 12:58:59 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/13 09:04:03 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/15 12:33:42 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,15 +29,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		i++;
 	return (s01[i] - s02[i]);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char	s1[] = "test\200";
-// 	char	s2[] = "test\0";
-
-// 	printf("reel : %d, ", strncmp(s1, s2, 6));
-// 	printf("mine : %d", ft_strncmp(s1, s2, 6));
-// 	return (0);
-// }

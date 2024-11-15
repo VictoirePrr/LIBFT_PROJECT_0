@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 12:52:14 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/12 13:23:02 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/15 12:53:09 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,23 +19,3 @@ int	ft_isdigit(int c)
 	else
 		return (1);
 }
-/*
-#include <stdio.h>
-int	main(void)
-{
-	int		i;
-	int		count;
-
-	i = 0;
-	count = 0;
-	char	*str = "viC0PEr5ri	";
-	while (str[i])
-	{
-		if ((ft_isdigit(str[i]) == 1))
-			count++;
-		i++;
-	}
-	printf("test 0 pour '%c' : %d\n", str[1], ft_isdigit(str[1]));
-	printf("test 1 : %d\n", count);
-	return 0;
-}*/

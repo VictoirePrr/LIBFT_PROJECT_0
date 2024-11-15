@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 12:55:55 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/12 13:23:02 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/15 12:54:22 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,30 +14,9 @@
 
 int	ft_isalnum(int c)
 {
-	if (!((c >= 'a' && c <= 'z')
-			|| (c >= 'A' && c <= 'Z')
-			|| (c >= '0' && c <= '9')))
+	if (!((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0'
+				&& c <= '9')))
 		return (0);
 	else
 		return (1);
 }
-/*
-#include <stdio.h>
-int	main(void)
-{
-	int		i;
-	int		count;
-
-	i = 0;
-	count = 0;
-	char	*str = "05 vicperri	...";
-	while (str[i])
-	{
-		if ((ft_isalnum(str[i]) == 1))
-			count++;
-		i++;
-	}
-	printf("test 0 pour '%c' : %d\n", str[5], ft_isalnum(str[5]));
-	printf("test 1 : %d\n", count);
-	return 0;
-}*/

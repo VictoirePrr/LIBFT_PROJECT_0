@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 12:58:59 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/13 15:14:58 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/15 12:38:55 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,15 +31,3 @@ char	*ft_strdup(const char *s1)
 	dup[i] = '\0';
 	return (dup);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-const char	str[21] = "My name is vicperri.";
-char		*dup;
-dup = ft_strdup(str);
-printf("%s", dup);
-free(dup);
-return (0);
-}*/

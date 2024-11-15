@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 13:28:07 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/13 15:47:54 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/15 12:28:28 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,13 +32,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	str[i] = '\0';
 	return (str);
 }
-
-// int	main(void)
-// {
-// 	char const	s[] = "Lorem ipsum dolor sit amet";
-// 	char		*res;
-
-// 	res = ft_substr(s, 0, 10);
-// 	printf("resultat : %s||\n", res);
-// 	return (0);
-// }

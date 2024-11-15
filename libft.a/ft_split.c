@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 14:10:59 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/14 11:10:09 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/15 12:46:03 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,9 +81,9 @@ char	*ft_newtab(const char *s1, size_t size, char c, size_t i)
 
 char	**ft_split(char const *s, char c)
 {
-	char	**res;
-	size_t	i;
-	size_t	j;
+	char **res;
+	size_t i;
+	size_t j;
 
 	i = 0;
 	j = 0;
@@ -107,22 +107,3 @@ char	**ft_split(char const *s, char c)
 	}
 	return (res);
 }
-
-// #include <stdlib.h>
-
-// int	main(void)
-// {
-// 	char	**res;
-// 	int		i;
-
-// 	res = ft_split("hello!", ' ');
-// 	i = 0;
-// 	while (res[i])
-// 	{
-// 		printf("%s", res[i]);
-// 		printf("\n");
-// 		i++;
-// 	}
-// 	free(res);
-// 	return (0);
-// }

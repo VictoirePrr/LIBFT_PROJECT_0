@@ -6,7 +6,7 @@
 #    By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/12 12:55:24 by vicperri          #+#    #+#              #
-#    Updated: 2024/11/14 16:35:06 by vicperri         ###   ########lyon.fr    #
+#    Updated: 2024/11/15 10:33:38 by vicperri         ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,8 +21,7 @@ SRCS = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c \
 ifdef BONUS
 	SRCS:= $(SRCS) ft_lstnew_bonus.c ft_lstadd_front_bonus.c ft_lstsize_bonus.c \
 	   ft_lstlast_bonus.c ft_lstadd_back_bonus.c ft_lstdelone_bonus.c \
-  	ft_lstclear_bonus.c 
-#   ft_lstiter_bonus.c ft_lstmap_bonus.c
+  		ft_lstclear_bonus.c  ft_lstiter_bonus.c ft_lstmap_bonus.c
 endif
 
 OBJDIR = .obj

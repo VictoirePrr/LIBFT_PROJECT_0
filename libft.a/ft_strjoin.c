@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 13:28:07 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/13 16:27:56 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/15 12:37:40 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,15 +30,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[i] = '\0';
 	return (str);
 }
-/*
-int	main(void)
-{
-	char const	s1[] = "Brian ";
-	char const	s2[] = "is in the kitchen";
-	char		*res;
-
-	res = ft_strjoin(s1, s2);
-	printf("%s\n", res);
-	return (0);
-}
-*/

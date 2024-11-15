@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 12:58:59 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/13 09:21:24 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/15 12:31:15 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,14 +31,3 @@ char	*ft_strrchr(const char *s, int c)
 		return (&s1[i]);
 	return (0);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char    *s = "coucou, ça va?";
-	char    c = 'c';
-	printf("mine : %s || ", ft_strrchr(s, c));
-	printf("reel : %s", strrchr(s, c));
-	return (0);
-}*/

@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 14:52:38 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/12 14:00:28 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/15 12:48:28 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,20 +31,3 @@ void	ft_putnbr_fd(int n, int fd)
 	else if (n != -2147483648)
 		ft_putchar_fd(n + 48, fd);
 }
-/*
-#include <fcntl.h>
-#include <stdio.h>
-#include <stdlib.h>
-
-int	main(void)
-{
-	int fd;
-	int n = 2147483647;
-
-	fd = open("text.txt", O_WRONLY);
-	if (!(fd))
-		return (1);
-	ft_putnbr_fd(n, fd);
-	close(fd);
-	return (0);
-}*/

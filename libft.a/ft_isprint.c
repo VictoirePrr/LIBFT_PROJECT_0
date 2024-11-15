@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 13:11:49 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/12 13:23:02 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/15 12:52:43 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,25 +19,3 @@ int	ft_isprint(int c)
 	else
 		return (1);
 }
-/*
-#include <ctype.h>
-#include <stdio.h>
-int	main(void)
-{
-	int		i;
-	int		count;
-
-	i = 0;
-	count = 0;
-	char	*str = "i # $ & ' ( ) * + , - .  r A s t u v w x y z { | } ~ ";
-	while (str[i])
-	{
-		if ((isprint(str[i]) == 1))
-			count++;
-		i++;
-	}
-	printf("test 0 : %d\n", ft_isprint(str[1]));
-	printf("test 1 : %d\n", isprint(str[1]));
-	printf("test 2 : %d\n", count);
-	return 0;
-}*/

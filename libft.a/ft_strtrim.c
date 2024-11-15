@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 14:10:59 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/13 15:16:52 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/15 12:29:16 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,14 +31,3 @@ char	*ft_strtrim(const char *s1, const char *set)
 	str = ft_substr(s1, start, end - start + 1);
 	return (str);
 }
-
-// int	main(void)
-// {
-// 	char const	s1[] = "lorem \n ipsum \t dolor \n sit \t amet";
-// 	char const	set[] = " ";
-// 	char		*res;
-
-// 	res = ft_strtrim(s1, set);
-// 	printf("||%s||\n", res);
-// 	return (0);
-// }

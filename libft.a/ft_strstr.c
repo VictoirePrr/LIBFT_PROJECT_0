@@ -6,21 +6,11 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 12:58:59 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/12 13:23:02 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/15 12:30:39 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-size_t	ft_strlen(const char *str)
-{
-	size_t	i;
-
-	i = 0;
-	while (str[i])
-		i++;
-	return (i);
-}
 
 char	*ft_strcpy(const char *str)
 {
@@ -71,15 +61,3 @@ char	*ft_strstr(const char *haystack, const char *needle)
 	}
 	return (0);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-   char haystack[] = "phrase est une phrase";
-   char needle[] = "phrase";
-   char *res = ft_strstr(haystack, needle);
-   char *res1 = strstr(haystack, needle);
-   printf("mine %s, reel : %s", res, res1);
-   return (0);
-}*/
