@@ -6,28 +6,23 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 12:58:59 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/15 12:30:39 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/21 15:13:44 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stdio.h>
 
-char	*ft_strcpy(const char *str)
+size_t	ft_strlen(const char *str)
 {
-	char	*res;
-	int		i;
+	size_t	i;
 
 	i = 0;
 	while (str[i])
-	{
-		res[i] = str[i];
 		i++;
-	}
-	res[i] = '\0';
-	return (res);
+	return (i);
 }
 
-int	ft_compare(const char *haystack, int i, const char *needle)
+static int	ft_compare(const char *haystack, int i, const char *needle)
 {
 	int	j;
 
@@ -49,15 +44,27 @@ char	*ft_strstr(const char *haystack, const char *needle)
 
 	i = 0;
 	if (ft_strlen(needle) == 0)
-		return (ft_strcpy(haystack));
+		return ((char *)haystack);
 	while (haystack[i])
 	{
 		if (haystack[i] == needle[0])
 		{
 			if (ft_compare(haystack, i, needle) == 0)
-				return (ft_strcpy(&haystack[i]));
+				return ((char *)&haystack[i]);
 		}
 		i++;
 	}
 	return (0);
 }
+
+// int	main(void)
+// {
+// 	char haystack[] = "phrase est une phrase";
+// 	char needle[] = "phrase";
+// 	char *res;
+// 	char *res1 = NULL;
+
+// 	res = ft_strstr(haystack, needle);
+// 	printf("mine %s, reel : %s", res, res1);
+// 	return (0);
+// }
