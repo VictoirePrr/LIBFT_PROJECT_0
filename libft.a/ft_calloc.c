@@ -6,7 +6,7 @@
 /*   By: vicperri <vicperri@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 12:58:59 by vicperri          #+#    #+#             */
-/*   Updated: 2024/11/15 14:29:01 by vicperri         ###   ########lyon.fr   */
+/*   Updated: 2024/11/21 17:22:58 by vicperri         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	*ft_calloc(size_t nmemb, size_t size)
 
 	bytes = nmemb * size;
 	res = malloc(nmemb * size);
-	if (nmemb > 0 && nmemb * size > SIZE_MAX)
+	if (nmemb > 0 && size > SIZE_MAX / nmemb)
 		return (0);
 	if (!(res))
 		return (0);
